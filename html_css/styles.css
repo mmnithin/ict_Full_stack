@@ -1,5 +1,18 @@
 body{
     background-color: fuchsia
+}
 .mytr{
-    background-color: dimgray
+    background-color: rgb(161, 233, 27)
+}
+.MyTitle{
+    margin-left: 700px;
+    color: darkgreen
+}
+.MyDiv{
+    border: 1px solid black;
+    margin-left: 500px;
+    width: 500px;
+}
+.reg{
+    color: blueviolet;
 }
