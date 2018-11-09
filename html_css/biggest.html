@@ -15,7 +15,14 @@
 </head>
 <body>
     <div class="container">
+            <div class="jumbotron">
+                    <h1>ICTA CALICUT</h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, laboriosam nobis. Quas accusantium adipisci molestias sunt odit excepturi ea et, quos nostrum. Eos unde hic sapiente alias quas velit est.</p>
+                </div>
 
+        <div class="card">
+
+       
         <div class="row">
 
             <div class="col-sm-6">
@@ -25,19 +32,19 @@
 
                     <div class="row">
                         <div class="col-sm-6">First Number</div>
-                        <div class="col-sm-6"><input type="number" id="first_num"></div>
+                        <div class="col-sm-6"><input type="number" class="form-control" id="first_num"></div>
                     </div>
                     <br>
                     <div class="row">
                         <div class="col-sm-6">Second Number</div>
-                        <div class="col-sm-6"><input type="number" id="second_num"></div>
+                        <div class="col-sm-6"><input type="number" class="form-control" id="second_num"></div>
 
                     </div>
                     <br>
 
                     <div class="row">
                             <div class="col-sm-6">Third Number</div>
-                            <div class="col-sm-6"><input type="number" id="third_num"></div>
+                            <div class="col-sm-6"><input type="number" class="form-control" id="third_num"></div>
     
                         </div>
                        
@@ -47,8 +54,8 @@
 
                     <div class="row">
 
-                        <div class="col-sm-8">  <button class="btn btn-success" onclick="small();">Smallest</button> </div>
-                        <div class="col-sm-4"><button class="btn btn-success" onclick="big();">Largest</button> </div>
+                        <div class="col-sm-8">  <button type="button" class="btn btn-success" onclick="small();">Smallest</button> </div>
+                        <div class="col-sm-4"><button type="button" class="btn btn-success" onclick="big();">Largest</button> </div>
 
 
                     </div>
@@ -62,11 +69,24 @@
 
 
             </div>
+            <div class="col-sm-6">
+                <form>
+
+
+                        <div class="row">
+
+                                <div class="col-sm-8"> </div>
+                                <div class="col-sm-8"><p id="result"></p> </div>
+    
+                        </div>
+                </form>
+            </div>
 
 
         </div>
         
 
+         </div>
     </div>
 
 </body>

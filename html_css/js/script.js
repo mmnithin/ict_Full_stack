@@ -4,6 +4,7 @@
     var rollNumber= document.getElementById("get_rollno").value;
     var addNumber =document.getElementById("get_addno").value;
     var addAge =document.getElementById("get_age").value;
+    var addmobile =document.getElementById("get_mobile").value;
 
     var option =document.getElementById("get_district");
     var dist=option.options[option.selectedIndex].value;
@@ -16,6 +17,8 @@
     console.log(rollNumber);
     console.log(addNumber);
     console.log(dist);
+    console.log(addmobile);
+    
     if(addAge<18){
         window.alert("You are Not Eligible");
     }else{
@@ -69,9 +72,11 @@
              if(num1>num3){
                 console.log("Largest number is" + num1);
                window.alert("Largest number is" +num1);
+               var res =num1;
              }else{
                 console.log("Largest number is" + num3);
                window.alert("Largest number is" +num3);
+               var res =num3;
 
              }
            
@@ -80,13 +85,17 @@
 
                 console.log("Largest number is" + num2);
           window.alert("Largest number is" +num2);
+          var res =num2;
              }else{
 
                 console.log( "Largest number is" +num3);
                window.alert("Largest number is" +num3);
+               var res =num3;
              }
             
          }
+         document.getElementById("result").innerHTML="<b>Result is "+ res + "</b>";
+
         
     }
     function small(){
@@ -103,9 +112,11 @@
              if(num1<num3){
                 console.log("Largest number is" + num1);
                window.alert("Largest number is" +num1);
+               var res =num1;
              }else{
                 console.log("Largest number is" + num3);
                window.alert("Largest number is" +num3);
+               var res =num3;
 
              }
            
@@ -114,12 +125,16 @@
 
                 console.log("Largest number is" + num2);
           window.alert("Largest number is" +num2);
+          var res =num2;
              }else{
 
                 console.log( "Largest number is" +num3);
                window.alert("Largest number is" +num3);
+               var res =num3;
              }
             
          }
+         document.getElementById("result").innerHTML=res;
+
         
     }
