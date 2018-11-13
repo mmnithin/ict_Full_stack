@@ -1,0 +1,75 @@
+{%extends 'layout.html'%}
+{%block mycontent%}
+<br>
+<br>
+
+
+    <form method="POST" action="/send" method="POST">
+
+   
+  
+    <div class="row" >
+            
+        <div class="col-sm-3"></div>
+           
+        <div class="col-sm-6">
+                <div class="jumbotron" >
+                        <h2><center> Contact Form</center></h2>
+
+                        <br>
+            <div class="row">
+               
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8"><input type="text" class="form-control" placeholder="Name" name="name"></div>
+                <div class="col-sm-2"></div>
+                
+
+            </div>
+            <br>
+            <div class="row">
+                    <div class="col-sm-2"></div>
+                <div class="col-sm-8"><input type="email" class="form-control" placeholder="Email ID" name="email" > </div>
+
+                <div class="col-sm-2"></div>
+               
+            </div>
+            <br>
+            <div class="row">
+          
+                    <div class="col-sm-2"></div>
+
+                <div class="col-sm-8"><input type="number" class="form-control" placeholder="Mobile Number" name="mobile_no" ></div>
+            
+                <div class="col-sm-2"></div>
+            </div>
+            <br>
+            <div class="row">
+          
+                    <div class="col-sm-2"></div>
+
+                <div class="col-sm-8"><input type="text" class="form-control" placeholder="Subject" name="msg_subject" ></div>
+            
+                <div class="col-sm-2"></div>
+            </div>
+            <br>
+            
+            <div class="row">
+                    <div class="col-sm-2"></div>
+                <div class="col-sm-8"><textarea class="form-control" placeholder="Message" rows="5"  name="msg_content"></textarea></div>
+                <div class="col-sm-2"></div>
+                
+            </div>
+            <br>
+            <div class="row">
+                    <div class="col-sm-5"></div>
+                <div class="col-sm-2"><button class="btn btn-success" type="submit">Submit</button></textarea></div>
+                <div class="col-sm-5"></div>
+                
+            </div>
+
+        </div>
+    </div>
+</div> 
+</form>
+
+{%endblock%}
